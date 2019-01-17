@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEI,+BAAS;EACP,gBAAgB,EAAE,wBAAwB;EAC1C,eAAe,EAAE,SAAS",
+"sources": ["slider.scss"],
+"names": [],
+"file": "slider.css"
+}

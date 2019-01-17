@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,cAAc;EACZ,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,IAAI;EACT,IAAI,EAAE,IAAI;EACV,OAAO,EAAE,GAAG;EAGV,iCAAO;IACL,MAAM,EAAE,IAAI;IACZ,KAAK,EAAE,IAAI;IACX,gBAAgB,EAAE,KAAK",
+"sources": ["../scss/center_button.scss"],
+"names": [],
+"file": "center_button.css"
+}

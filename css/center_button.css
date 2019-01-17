@@ -1,0 +1,91 @@
+.center_button {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 101;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; }
+  .center_button .container {
+    height: 7.5vw;
+    width: 7.5vw;
+    margin: auto;
+    display: flex;
+    background-image: url("../img/circle.png");
+    background-size: contain;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden; }
+    .center_button .container .logo {
+      height: 4.25vw;
+      width: 3.5vw;
+      margin: auto;
+      background-image: url("../img/logo.png");
+      background-size: contain;
+      background-repeat: no-repeat; }
+    .center_button .container .shapeshifter_down {
+      width: 62.5%;
+      height: 62.5%;
+      margin: auto;
+      animation-duration: 1000ms;
+      animation-timing-function: steps(60);
+      background-image: url("../img/sprite_60fps_down.svg");
+      background-repeat: no-repeat;
+      animation-fill-mode: forwards; }
+    .center_button .container .shapeshifter_up {
+      width: 62.5%;
+      height: 62.5%;
+      margin: auto;
+      animation-duration: 1000ms;
+      animation-timing-function: steps(60);
+      background-image: url("../img/sprite_60fps_up.svg");
+      background-repeat: no-repeat;
+      animation-fill-mode: forwards; }
+    .center_button .container .play_down, .center_button .container .play_up {
+      animation-name: play60; }
+    .center_button .container .reverse_down, .center_button .container .reverse_up {
+      animation-name: play-60; }
+
+@keyframes play60 {
+  0% {
+    background-position: 0% 0%; }
+  100% {
+    background-position: 100% 0%; } }
+@keyframes play-60 {
+  0% {
+    background-position: 100% 0%; }
+  100% {
+    background-position: 0% 0%; } }
+@media only screen and (max-width: 801px) {
+  .center_button {
+    z-index: 100; }
+    .center_button .container {
+      height: 20vw;
+      width: 20vw; }
+      .center_button .container .shapeshifter_down {
+        width: 60%;
+        height: 60%;
+        background-image: url("../img/mobile_animation/sprite_60fps_down.svg");
+        background-size: 6100%; }
+      .center_button .container .shapeshifter_up {
+        width: 60%;
+        height: 60%;
+        background-image: url("../img/mobile_animation/sprite_60fps_up.svg");
+        background-size: 6100%; }
+
+  @keyframes play60 {
+    0% {
+      background-position: 0% 0%; }
+    100% {
+      background-position: 100% 0%; } }
+  @keyframes play-60 {
+    0% {
+      background-position: 100% 0%; }
+    100% {
+      background-position: 0% 0%; } } }
+
+/*# sourceMappingURL=center_button.css.map */
