@@ -88,49 +88,49 @@
     100% {
       background-position: 0% 0%; } } }
 #multiscroll .ms-left .section1 {
-  height: 100vh;
+  height: 100%;
   width: 50vw;
   background-image: url("../img/going.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto 100%; }
 #multiscroll .ms-left .section2 {
-  height: 100vh;
+  height: 100%;
   width: 50vw;
   background-image: url("../img/being.jpg");
   background-repeat: no-repeat;
   background-position: right;
   background-size: auto 100%; }
 #multiscroll .ms-left .section3 {
-  height: 100vh;
+  height: 100%;
   width: 50vw;
   background-image: url("../img/gear.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto 100%; }
 #multiscroll .ms-left .section4 {
-  height: 100vh;
+  height: 100%;
   width: 50vw;
   background-image: url("../img/creating.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover; }
 #multiscroll .ms-left .section5 {
-  height: 100vh;
+  height: 100%;
   width: 50vw;
   background-image: url("../img/gathering.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto 100%; }
 #multiscroll .ms-left .section6 {
-  height: 100vh;
+  height: 100%;
   width: 50vw;
   background-image: url("../img/meeting.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto 100%; }
 #multiscroll .ms-left .section7 {
-  height: 100vh;
+  height: 100%;
   width: 50vw;
   background-image: url("../img/moving.jpg");
   background-repeat: no-repeat;
@@ -184,7 +184,7 @@
         height: 5vw;
         width: 5vw; }
   #multiscroll .ms-right .section2 {
-    height: 100vh;
+    height: 100%;
     width: 50vw;
     background-image: url("../img/back_sec2.png");
     background-repeat: repeat;
@@ -204,7 +204,7 @@
         height: 5vw;
         width: 5vw; }
   #multiscroll .ms-right .section3 {
-    height: 100vh;
+    height: 100%;
     width: 50vw;
     background-image: url("../img/back_sec3.png");
     background-repeat: repeat;
@@ -227,7 +227,7 @@
         height: 5vw;
         width: 5vw; }
   #multiscroll .ms-right .section4 {
-    height: 100vh;
+    height: 100%;
     width: 50vw;
     background-image: url("../img/back_sec4.png");
     background-repeat: repeat;
@@ -248,7 +248,7 @@
         height: 7vw;
         width: 7vw; }
   #multiscroll .ms-right .section5 {
-    height: 100vh;
+    height: 100%;
     width: 50vw;
     background-image: url("../img/back_sec5.png");
     background-repeat: repeat;
@@ -269,7 +269,7 @@
         height: 5vw;
         width: 5vw; }
   #multiscroll .ms-right .section6 {
-    height: 100vh;
+    height: 100%;
     width: 50vw;
     background-image: url("../img/back_sec6.png");
     background-repeat: repeat;
@@ -289,7 +289,7 @@
         height: 7vw;
         width: 7vw; }
   #multiscroll .ms-right .section7 {
-    height: 100vh;
+    height: 100%;
     width: 50vw;
     background-image: url("../img/back_sec7.png");
     background-repeat: repeat;
@@ -313,7 +313,7 @@
 
 @media only screen and (max-width: 801px) {
   .mobile_slider {
-    height: 100vh;
+    height: 100%;
     margin: 0;
     padding: 0;
     display: flex;
@@ -334,7 +334,7 @@
       padding: 0;
       position: relative; }
       .mobile_slider .top .sec1 {
-        height: 50vh;
+        height: 50%;
         width: 100%;
         z-index: 90;
         position: absolute;
@@ -345,7 +345,7 @@
         background-position: bottom;
         background-size: auto 100%; }
       .mobile_slider .top .sec2 {
-        height: 50vh;
+        height: 50%;
         width: 100%;
         z-index: 85;
         position: absolute;
@@ -356,7 +356,7 @@
         background-position: right;
         background-size: auto 100%; }
       .mobile_slider .top .sec3 {
-        height: 50vh;
+        height: 50%;
         width: 100%;
         z-index: 80;
         position: absolute;
@@ -367,7 +367,7 @@
         background-position: center;
         background-size: auto 100%; }
       .mobile_slider .top .sec4 {
-        height: 50vh;
+        height: 50%;
         width: 100%;
         z-index: 75;
         position: absolute;
@@ -378,7 +378,7 @@
         background-position: bottom;
         background-size: cover; }
       .mobile_slider .top .sec5 {
-        height: 50vh;
+        height: 50%;
         width: 100%;
         z-index: 70;
         position: absolute;
@@ -389,7 +389,7 @@
         background-position: center;
         background-size: auto 100%; }
       .mobile_slider .top .sec6 {
-        height: 50vh;
+        height: 50%;
         width: 100%;
         z-index: 65;
         position: absolute;
@@ -400,7 +400,7 @@
         background-position: center;
         background-size: auto 100%; }
       .mobile_slider .top .sec7 {
-        height: 50vh;
+        height: 50%;
         width: 100%;
         z-index: 60;
         position: absolute;
@@ -434,7 +434,7 @@
           font-size: 4vw;
           line-height: 6vw; }
       .mobile_slider .bottom .sec1 {
-        height: 50vh;
+        height: 50%;
         width: 100%;
         z-index: 90;
         position: absolute;
@@ -465,7 +465,7 @@
             height: 15vw;
             width: 15vw; }
       .mobile_slider .bottom .sec2 {
-        height: 50vh;
+        height: 50%;
         width: 100%;
         z-index: 85;
         position: absolute;
@@ -493,7 +493,7 @@
             height: 15vw;
             width: 15vw; }
       .mobile_slider .bottom .sec3 {
-        height: 50vh;
+        height: 50%;
         width: 100%;
         z-index: 80;
         position: absolute;
@@ -524,7 +524,7 @@
             height: 15vw;
             width: 15vw; }
       .mobile_slider .bottom .sec4 {
-        height: 50vh;
+        height: 50%;
         width: 100%;
         z-index: 75;
         position: absolute;
@@ -554,7 +554,7 @@
             height: 18vw;
             width: 18vw; }
       .mobile_slider .bottom .sec5 {
-        height: 50vh;
+        height: 50%;
         width: 100%;
         z-index: 70;
         position: absolute;
@@ -583,7 +583,7 @@
             height: 15vw;
             width: 15vw; }
       .mobile_slider .bottom .sec6 {
-        height: 50vh;
+        height: 50%;
         width: 100%;
         z-index: 65;
         position: absolute;
@@ -611,7 +611,7 @@
             height: 18vw;
             width: 18vw; }
       .mobile_slider .bottom .sec7 {
-        height: 50vh;
+        height: 50%;
         width: 100%;
         z-index: 60;
         position: absolute;
