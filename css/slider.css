@@ -246,7 +246,7 @@
       position: relative; }
       .mobile_slider .top .sec1 {
         height: 50vh;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(var(--vh, 1vh) * 50);
         width: 100%;
         z-index: 90;
         position: absolute;
@@ -258,7 +258,7 @@
         background-size: auto 100%; }
       .mobile_slider .top .sec2 {
         height: 50vh;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(var(--vh, 1vh) * 50);
         width: 100%;
         z-index: 85;
         position: absolute;
@@ -270,7 +270,7 @@
         background-size: auto 100%; }
       .mobile_slider .top .sec3 {
         height: 50vh;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(var(--vh, 1vh) * 50);
         width: 100%;
         z-index: 80;
         position: absolute;
@@ -282,7 +282,7 @@
         background-size: auto 100%; }
       .mobile_slider .top .sec4 {
         height: 50vh;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(var(--vh, 1vh) * 50);
         width: 100%;
         z-index: 75;
         position: absolute;
@@ -294,7 +294,7 @@
         background-size: cover; }
       .mobile_slider .top .sec5 {
         height: 50vh;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(var(--vh, 1vh) * 50);
         width: 100%;
         z-index: 70;
         position: absolute;
@@ -306,7 +306,7 @@
         background-size: auto 100%; }
       .mobile_slider .top .sec6 {
         height: 50vh;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(var(--vh, 1vh) * 50);
         width: 100%;
         z-index: 65;
         position: absolute;
@@ -318,7 +318,7 @@
         background-size: auto 100%; }
       .mobile_slider .top .sec7 {
         height: 50vh;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(var(--vh, 1vh) * 50);
         width: 100%;
         z-index: 60;
         position: absolute;
@@ -353,7 +353,7 @@
           line-height: 6vw; }
       .mobile_slider .bottom .sec1 {
         height: 50vh;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(var(--vh, 1vh) * 50);
         width: 100%;
         z-index: 90;
         position: absolute;
@@ -385,7 +385,7 @@
             width: 15vw; }
       .mobile_slider .bottom .sec2 {
         height: 50vh;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(var(--vh, 1vh) * 50);
         width: 100%;
         z-index: 85;
         position: absolute;
@@ -414,7 +414,7 @@
             width: 15vw; }
       .mobile_slider .bottom .sec3 {
         height: 50vh;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(var(--vh, 1vh) * 50);
         width: 100%;
         z-index: 80;
         position: absolute;
@@ -446,7 +446,7 @@
             width: 15vw; }
       .mobile_slider .bottom .sec4 {
         height: 50vh;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(var(--vh, 1vh) * 50);
         width: 100%;
         z-index: 75;
         position: absolute;
@@ -477,7 +477,7 @@
             width: 18vw; }
       .mobile_slider .bottom .sec5 {
         height: 50vh;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(var(--vh, 1vh) * 50);
         width: 100%;
         z-index: 70;
         position: absolute;
@@ -507,7 +507,7 @@
             width: 15vw; }
       .mobile_slider .bottom .sec6 {
         height: 50vh;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(var(--vh, 1vh) * 50);
         width: 100%;
         z-index: 65;
         position: absolute;
@@ -536,7 +536,7 @@
             width: 18vw; }
       .mobile_slider .bottom .sec7 {
         height: 50vh;
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(var(--vh, 1vh) * 50);
         width: 100%;
         z-index: 60;
         position: absolute;
