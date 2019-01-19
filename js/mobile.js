@@ -1,3 +1,7 @@
+// SAFARI HEIGHT ALLOWANCE
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
 // JS MEDIA QUERY
 var x = window.matchMedia("(max-width: 801px)")
 
