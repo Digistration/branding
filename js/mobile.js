@@ -4,7 +4,7 @@ var x = window.matchMedia("(max-width: 801px)")
 // CHANGE JS PAGE TO MOBILE
 function myFunction(x) {
   if (x.matches) {
-    document.getElementsByClassName("moblie_slider")[0].removeAttribute("id");
+    document.getElementsByClassName("mobile_slider")[0].removeAttribute("id");
     $('.logo').attr('class', 'shapeshifter_down');
 
 // INITIAL LOGO TO ARROW ANIMATION ON LOAD
