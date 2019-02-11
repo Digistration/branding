@@ -55,8 +55,10 @@ x.addListener(myFunction)
 
 // ADD MOBILE EVENT
 document.getElementById("mob_btn").addEventListener("click", scroll1);
-      function scroll1(){
 
+      function scroll1(){
+// DISABLE CLICK EVENT
+        document.getElementById("mob_btn").removeEventListener("click", scroll1);
 // LOGO TO ARROW-DOWN ANIMATION ON CLICK
         $('.shapeshifter_down').toggleClass('play_down')
          $('.shapeshifter_down').toggleClass('reverse_down')
@@ -70,12 +72,13 @@ document.getElementById("mob_btn").addEventListener("click", scroll1);
         $('.bottom .sec1').toggleClass('moving_right');
         $('.top .sec1').toggleClass('moving_left');
         setTimeout(function(){
-          document.getElementById("mob_btn").removeEventListener("click", scroll1);
+// ACTIVATE NEW CLICK EVENT
           document.getElementById("mob_btn").addEventListener("click", scroll2);
-        }, 1000);
+        }, 2000);
       }
 
       function scroll2(){
+        document.getElementById("mob_btn").removeEventListener("click", scroll2);
 // LOGO TO ARROW-DOWN ANIMATION ON CLICK
         $('.shapeshifter_down').toggleClass('play_down')
          $('.shapeshifter_down').toggleClass('reverse_down')
@@ -89,12 +92,12 @@ document.getElementById("mob_btn").addEventListener("click", scroll1);
         $('.bottom .sec2').toggleClass('moving_right');
         $('.top .sec2').toggleClass('moving_left');
         setTimeout(function(){
-          document.getElementById("mob_btn").removeEventListener("click", scroll2);
           document.getElementById("mob_btn").addEventListener("click", scroll3);
-        }, 1000);
+        }, 2000);
       }
 
       function scroll3(){
+        document.getElementById("mob_btn").removeEventListener("click", scroll3);
 // LOGO TO ARROW-DOWN ANIMATION ON CLICK
         $('.shapeshifter_down').toggleClass('play_down')
          $('.shapeshifter_down').toggleClass('reverse_down')
@@ -108,12 +111,12 @@ document.getElementById("mob_btn").addEventListener("click", scroll1);
         $('.bottom .sec3').toggleClass('moving_right');
         $('.top .sec3').toggleClass('moving_left');
         setTimeout(function(){
-          document.getElementById("mob_btn").removeEventListener("click", scroll3);
           document.getElementById("mob_btn").addEventListener("click", scroll4);
-        }, 1000);
+        }, 2000);
       }
 
       function scroll4(){
+        document.getElementById("mob_btn").removeEventListener("click", scroll4);
 // LOGO TO ARROW-DOWN ANIMATION ON CLICK
         $('.shapeshifter_down').toggleClass('play_down')
          $('.shapeshifter_down').toggleClass('reverse_down')
@@ -127,12 +130,12 @@ document.getElementById("mob_btn").addEventListener("click", scroll1);
         $('.bottom .sec4').toggleClass('moving_right');
         $('.top .sec4').toggleClass('moving_left');
         setTimeout(function(){
-          document.getElementById("mob_btn").removeEventListener("click", scroll4);
           document.getElementById("mob_btn").addEventListener("click", scroll5);
-        }, 1000);
+        }, 2000);
       }
 
       function scroll5(){
+        document.getElementById("mob_btn").removeEventListener("click", scroll5);
 // LOGO TO ARROW-DOWN ANIMATION ON CLICK
         $('.shapeshifter_down').toggleClass('play_down')
          $('.shapeshifter_down').toggleClass('reverse_down')
@@ -146,12 +149,12 @@ document.getElementById("mob_btn").addEventListener("click", scroll1);
         $('.bottom .sec5').toggleClass('moving_right');
         $('.top .sec5').toggleClass('moving_left');
         setTimeout(function(){
-          document.getElementById("mob_btn").removeEventListener("click", scroll5);
           document.getElementById("mob_btn").addEventListener("click", scroll6);
-        }, 1000);
+        }, 2000);
       }
 
       function scroll6(){
+        document.getElementById("mob_btn").removeEventListener("click", scroll6);
 // LOGO TO ARROW-DOWN ANIMATION ON CLICK
         $('.shapeshifter_down').toggleClass('play_down')
          $('.shapeshifter_down').toggleClass('reverse_down')
@@ -166,12 +169,12 @@ document.getElementById("mob_btn").addEventListener("click", scroll1);
         $('.bottom .sec6').toggleClass('moving_right');
         $('.top .sec6').toggleClass('moving_left');
         setTimeout(function(){
-          document.getElementById("mob_btn").removeEventListener("click", scroll6);
           document.getElementById("mob_btn").addEventListener("click", scroll7);
-        }, 1000);
+        }, 2000);
       }
 
       function scroll7(){
+        document.getElementById("mob_btn").removeEventListener("click", scroll7);
 // LOGO TO ARROW-DOWN ANIMATION ON CLICK
         $('.shapeshifter_up').toggleClass('play_up')
         $('.shapeshifter_up').toggleClass('reverse_up')
@@ -189,12 +192,12 @@ document.getElementById("mob_btn").addEventListener("click", scroll1);
         $('.bottom .sec7').toggleClass('moving_right');
         $('.top .sec7').toggleClass('moving_left');
         setTimeout(function(){
-          document.getElementById("mob_btn").removeEventListener("click", scroll7);
           document.getElementById("mob_btn").addEventListener("click", scroll8);
-        }, 1000);
+        }, 2000);
       }
 
       function scroll8(){
+        document.getElementById("mob_btn").removeEventListener("click", scroll8);
 // LOGO TO ARROW-DOWN ANIMATION ON CLICK
         $('.shapeshifter_up').toggleClass('play_up')
          $('.shapeshifter_up').toggleClass('reverse_up')
@@ -212,12 +215,12 @@ document.getElementById("mob_btn").addEventListener("click", scroll1);
         $('.bottom .sec6').toggleClass('moving_right');
         $('.top .sec6').toggleClass('moving_left');
         setTimeout(function(){
-          document.getElementById("mob_btn").removeEventListener("click", scroll8);
           document.getElementById("mob_btn").addEventListener("click", scroll9);
-        }, 1000);
+        }, 2000);
       }
 
       function scroll9(){
+        document.getElementById("mob_btn").removeEventListener("click", scroll9);
 // LOGO TO ARROW-DOWN ANIMATION ON CLICK
         $('.shapeshifter_up').toggleClass('play_up')
          $('.shapeshifter_up').toggleClass('reverse_up')
@@ -235,12 +238,12 @@ document.getElementById("mob_btn").addEventListener("click", scroll1);
         $('.bottom .sec5').toggleClass('moving_right');
         $('.top .sec5').toggleClass('moving_left');
         setTimeout(function(){
-          document.getElementById("mob_btn").removeEventListener("click", scroll9);
           document.getElementById("mob_btn").addEventListener("click", scroll10);
-        }, 1000);
+        }, 2000);
       }
 
       function scroll10(){
+        document.getElementById("mob_btn").removeEventListener("click", scroll10);
 // LOGO TO ARROW-DOWN ANIMATION ON CLICK
         $('.shapeshifter_up').toggleClass('play_up')
          $('.shapeshifter_up').toggleClass('reverse_up')
@@ -258,12 +261,12 @@ document.getElementById("mob_btn").addEventListener("click", scroll1);
         $('.bottom .sec4').toggleClass('moving_right');
         $('.top .sec4').toggleClass('moving_left');
         setTimeout(function(){
-          document.getElementById("mob_btn").removeEventListener("click", scroll10);
           document.getElementById("mob_btn").addEventListener("click", scroll11);
-        }, 1000);
+        }, 2000);
       }
 
       function scroll11(){
+        document.getElementById("mob_btn").removeEventListener("click", scroll11);
 // LOGO TO ARROW-DOWN ANIMATION ON CLICK
         $('.shapeshifter_up').toggleClass('play_up')
          $('.shapeshifter_up').toggleClass('reverse_up')
@@ -281,12 +284,12 @@ document.getElementById("mob_btn").addEventListener("click", scroll1);
         $('.bottom .sec3').toggleClass('moving_right');
         $('.top .sec3').toggleClass('moving_left');
         setTimeout(function(){
-          document.getElementById("mob_btn").removeEventListener("click", scroll11);
           document.getElementById("mob_btn").addEventListener("click", scroll12);
-        }, 1000);
+        }, 2000);
       }
 
       function scroll12(){
+        document.getElementById("mob_btn").removeEventListener("click", scroll12);
 // LOGO TO ARROW-DOWN ANIMATION ON CLICK
         $('.shapeshifter_up').toggleClass('play_up')
          $('.shapeshifter_up').toggleClass('reverse_up')
@@ -305,7 +308,6 @@ document.getElementById("mob_btn").addEventListener("click", scroll1);
         $('.top .sec2').toggleClass('moving_left');
 // RESET SLIDER TO BACK DOWN
         setTimeout(function(){
-          document.getElementById("mob_btn").removeEventListener("click", scroll12);
           document.getElementById("mob_btn").addEventListener("click", scroll1);
           $('.bottom .sec1').css('z-index', '90');
           $('.top .sec1').css('z-index', '90');

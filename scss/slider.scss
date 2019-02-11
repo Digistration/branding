@@ -421,18 +421,20 @@
       text-align: center;
 
       .container{
-        height: 65vw;
-        width: 70vw;
+        height: 60vw;
+        width: 80vw;
         margin: auto;
 
         h1{
           margin: auto;
-          font-size: 11.5vw;
+          padding-top: 4vw;
+          font-size: 10vw;
           letter-spacing: 0.5vw;
           text-transform: uppercase;
         }
         p{
-          width: 65vw;
+          margin: auto;
+          width: 80vw;
           margin: auto;
           font-size: 4vw;
           line-height: 6vw;
@@ -693,31 +695,6 @@
           position: absolute;
           bottom: 4vw;
           right: 4vw;
-        }
-      }
-    }
-  }
-}
-
-@media only screen and (max-height: 525px){
-  .mobile_slider{
-    .bottom{
-      .container{
-        height: 175px;
-        width: 300px;
-        margin: auto;
-
-        h1{
-          margin: auto;
-          font-size: 30px;
-          letter-spacing: 5px;
-          text-transform: uppercase;
-        }
-        p{
-          width: 210px;
-          margin: auto;
-          font-size: 12.5px;
-          line-height: 17.5px;
         }
       }
     }
